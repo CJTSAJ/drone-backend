@@ -2,7 +2,7 @@ FROM java:8u111
 
 WORKDIR /app
 
-ADD ./target/wxserver-0.0.1-SNAPSHOT /app
+ADD ./target/wxserver-0.0.1-SNAPSHOT.jar /app
 
 EXPOSE 8075
 
